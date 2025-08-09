@@ -1,6 +1,18 @@
+# Data Catalog for Gold Layer
 
+## Overview
 
-| Column Name                     | Data Type   | Description |
+The HR Data Layer represents consolidated and well-structured employee-related information, designed specifically to support workforce analysis and reporting, including employee records, engagement survey results, and training activity details.
+
+---
+
+### gold.Employees
+
+**Purpose:** Stores core demographic, personal, and employment details for all employees in the organization.
+
+**Columns:**
+
+| Column Name                      | Data Type | Description |
 |----------------------------------|-------------|-------------|
 | employee_id                      | int         | Unique identifier for each employee in the organization. |
 | first_name                       | nvarchar    | The first name of the employee. |
@@ -25,7 +37,13 @@
 | performance_score                | nvarchar    | A score indicating the employee’s performance level (e.g., Exceeds, Fully Meets, Needs Improvement). |
 | current_rating                   | int         | The current rating or evaluation of the employee’s overall performance. |
 
+---
 
+### gold.EngagementSurvey
+
+**Purpose:** Records employee engagement survey results to measure workplace satisfaction, engagement, and work-life balance
+
+**Columns:**
 
 | Column Name               | Data Type | Description |
 |---------------------------|-----------|-------------|
@@ -36,9 +54,13 @@
 | work_life_balance_score   | int       | A numerical score reflecting employee perceptions of the balance between work and personal life. |
 | overall_avg_score         | float     | A numerical score calculated by averaging the engagement, satisfaction, and work-life balance scores. |
 
+---
 
+### gold.TrainingandDevelopment
 
+**Purpose:** Tracks details of employee training programs, including type, duration, outcomes, and costs.
 
+**Columns:**
 
 | Column Name      | Data Type | Description |
 |------------------|-----------|-------------|
