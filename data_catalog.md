@@ -20,9 +20,7 @@
 | employee_classification_type     | nvarchar    | The classification type of the employee (e.g., Full-time, Part-time, Temporary). |
 | termination_type                 | nvarchar    | The type of termination if the employee has left the organization (e.g., Resignation, Retirement). |
 | title                            | nvarchar    | The job title or position of the employee within the organization. |
-| supervisor                       | nvarchar    | The name of the employee’s immediate supervisor or manager. |
 | department                       | nvarchar    | The broader category or type of department the employee’s work is associated with. |
-| business_unit                    | nvarchar    | The specific business unit or division to which the employee belongs. |
 | payzone                          | nvarchar    | The pay zone or salary band to which the employee’s compensation falls. |
 | performance_score                | nvarchar    | A score indicating the employee’s performance level (e.g., Exceeds, Fully Meets, Needs Improvement). |
 | current_rating                   | int         | The current rating or evaluation of the employee’s overall performance. |
@@ -49,7 +47,5 @@
 | training_name    | nvarchar  | The name or title of the training program attended by the employee. |
 | training_type    | nvarchar  | The categorization of the training, indicating its purpose or focus (e.g., Technical, Soft Skills, Safety). |
 | outcome          | nvarchar  | The observed outcome or result of the training for the employee (e.g., Completed, Partial Completion, Not Completed). |
-| training_location| nvarchar  | The physical or virtual location where the training session was conducted. |
-| trainer          | nvarchar  | The name of the trainer or instructor who facilitated the training. |
 | duration_days    | int       | The duration of the training program in days. |
 | cost             | float     | The cost associated with organizing and conducting the training program. |
