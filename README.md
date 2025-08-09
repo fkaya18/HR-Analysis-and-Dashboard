@@ -113,7 +113,7 @@ The HR analytics reveals a comprehensive workforce dataset spanning 2018-2023, e
 
 * **Geographic Concentration and Ethnic Diversity:** The organization maintains strong geographic focus in Massachusetts while achieving exceptional ethnic balance with Black (20.45%), White (20.93%), Hispanic (19.09%), Asian (20.18%), and Other (19.36%) employees nearly equally represented, demonstrating successful diversity and inclusion initiatives across all ethnic groups with no single demographic dominating the workforce composition.
 
-![Demographics](docs/demographics.png)
+![Demographics](docs/employee_demographics.png)
 
 
 
