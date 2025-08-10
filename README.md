@@ -105,7 +105,7 @@ To examine and download full interactive dashboard click [here](hr_dashboard.pbi
 
 The HR analytics reveals a comprehensive workforce dataset spanning 2018-2023, encompassing 3,000 total employees with 1,533 departures over this six-year period and 1,467 currently active staff members. The organization shows an average employee performance rating of 2.97 out of 5 across the workforce, while investing $939.87K in training programs between August 2022-2023, demonstrating commitment to workforce development. Employee status breakdown shows 48.9% active employees, with departures split between voluntary terminations (768 employees, 25.6%), involuntary terminations (388 employees, 12.93%), and retirements (377 employees, 12.57%), while Production Technician roles (I and II) dominate headcount at 1,837 positions, and payroll distributed across three zones with Zone A accounting for the largest share at varying tenure levels.
 
-![Overview](docs/overview.png)
+![Overview](docs/overview_dashboard.png)
 
 
 ## Employee Demographics & Diversity
@@ -133,6 +133,8 @@ The HR analytics reveals a comprehensive workforce dataset spanning 2018-2023, e
 
 * **Critical Satisfaction Concerns:** The analysis identifies 103 active employees with critically low satisfaction scores below 2.0, predominantly concentrated in Production Technician I and II roles, followed by Area Sales Managers. Monthly trends show volatility with peaks in May 2023 (3.09) and significant drops in August 2023 (2.73), indicating potential seasonal or operational factors affecting employee satisfaction and requiring immediate management attention for these high-risk employee segments.
 
+![Survey](docs/survey_insights.png)
+
 
 ## Training Effectiveness & ROI
 
@@ -143,6 +145,8 @@ The HR analytics reveals a comprehensive workforce dataset spanning 2018-2023, e
 * **Financial Investment and Resource Allocation:** Production & Operations receives the largest training investment at $648,323.38, reflecting the department's size and operational importance, followed by Sales ($100,179.77) and IT ($87,101.37). By training type, Communication Skills commands the highest investment at $212.98K, followed by Project Management ($197.27K) and Leadership Development ($179.99K), demonstrating strategic focus on soft skills and management capabilities.
 
 * **Departmental Training Distribution:** Finance & Accounting leads in Communication Skills training with the highest participation rate at 37.93%, while Sales demonstrates strong focus on Project Management (29.03%) and Engineering shows the highest engagement in Project Management training (28.57%). Data & Analytics achieves the highest Technical Skills participation (24.68%), and Executive level shows significant emphasis on Customer Service training (40.00%) with balanced distribution across other programs, indicating tailored training approaches aligned with departmental functions and strategic priorities.
+
+![Training](docs/training.png)
 
 
 ## Hiring & Turnover Trends
@@ -155,7 +159,7 @@ The HR analytics reveals a comprehensive workforce dataset spanning 2018-2023, e
 
 * **Performance Rating Variability and Position-Based Analysis:** Annual performance ratings demonstrate significant inconsistency across positions and years, with notable volatility in leadership and management roles from 2018-2023. Critical exceptions include Director of Sales fluctuating dramatically from 1.00 to 4.00, IT Director ranging from 1.67 to 5.00, and President & CEO showing concerning performance decline from 2.40 to 1.00, while technical senior roles (BI Director, CIO, Senior BI Developer) maintain more stable 3.00 ratings, indicating inconsistent performance management practices with concerning leadership instability requiring immediate organizational intervention and evaluation process standardization.
 
-
+![Overview](docs/trends_insights.png)
 
 
 
